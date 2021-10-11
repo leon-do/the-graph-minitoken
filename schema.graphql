@@ -1,0 +1,6 @@
+type MiniTokenEntity @entity {
+  id: ID!
+  Eowner: Bytes! # address
+  EtokenId: Int! # uint8
+  ElastMint: BigInt! # uint256
+}
